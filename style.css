@@ -1,115 +1,59 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  background: #f8fafc;
-  color: #1f2937;
+  background: #f1f5f9;
 }
 
-/* COMMON */
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 20px;
-}
-
-.section {
-  padding: 60px 0;
-}
-
-.light-bg {
-  background: #ffffff;
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-/* HEADER */
-.header {
-  background: linear-gradient(135deg, #0f172a, #1e293b);
+header {
+  background: #0f172a;
   color: white;
   text-align: center;
-  padding: 80px 20px;
+  padding: 30px;
 }
 
-.header p {
-  margin: 15px 0;
+nav {
+  background: #1e293b;
+  text-align: center;
+  padding: 10px;
 }
 
-/* NAVBAR */
-.navbar {
-  background: #111827;
-}
-
-.navbar .container {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-.navbar a {
+nav a {
   color: white;
+  margin: 10px;
   text-decoration: none;
-  padding: 15px 0;
   font-weight: bold;
 }
 
-.navbar a:hover {
-  color: #60a5fa;
-}
-
-/* BUTTON */
-.btn {
-  background: #2563eb;
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  display: inline-block;
-  margin-top: 15px;
-  border: none;
-  cursor: pointer;
-}
-
-/* SERVICES */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
+section {
+  padding: 30px;
 }
 
 .card {
   background: white;
-  padding: 25px;
+  padding: 20px;
+  margin: 15px 0;
   border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-  text-align: center;
 }
 
-/* FORM */
-form {
-  max-width: 500px;
-  margin: auto;
-}
-
-input, textarea {
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
   width: 100%;
-  padding: 12px;
-  margin-bottom: 15px;
-  border: 1px solid #cbd5f5;
-  border-radius: 5px;
 }
 
-/* FOOTER */
-.footer {
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+footer {
   background: #0f172a;
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
 }
+
