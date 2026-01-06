@@ -1,12 +1,12 @@
-# Web Agency Website
+# Web Services Website
 
-A professional web agency website built using HTML, CSS and JavaScript.
+A professional business website built using HTML, CSS and JavaScript.
 
-## Highlights
-- Clean layout and spacing
-- Working navigation links
-- Responsive grid design
-- Business-style UI
+## Features
+- Service listing
+- Contact form
+- Clean business UI
 
 ## Tech Stack
-HTML | CSS | JavaScript
+HTML, CSS, JavaScript
+
